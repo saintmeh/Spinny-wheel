@@ -63,8 +63,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.49250149970006,
-                    "y": 0.2529002320185615,
+                    "x": 0.4733053389322136,
+                    "y": 0.34106728538283065,
                     "uniqueID": 1742078635296,
                     "ioValues": [
                         {
@@ -81,8 +81,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.11157768446310737,
-                    "y": 0.7726218097447796,
+                    "x": 0.05638872225554889,
+                    "y": 0.6844547563805105,
                     "uniqueID": 1742078783575,
                     "ioValues": [
                         {
@@ -95,8 +95,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.26514697060587883,
-                    "y": 0.7610208816705337,
+                    "x": 0.14337132573485303,
+                    "y": 0.6403712296983759,
                     "uniqueID": 1742078864451,
                     "ioValues": [
                         {
@@ -121,8 +121,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "RotatePattern",
-                    "x": 0.409118176364727,
-                    "y": 0.8051044083526682,
+                    "x": 0.2621475704859028,
+                    "y": 0.7958236658932715,
                     "uniqueID": 1742078894644,
                     "ioValues": [
                         {
@@ -355,13 +355,13 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.5812837432513498,
-                    "y": 0.7099767981438515,
+                    "x": 0.6778644271145772,
+                    "y": 0.7006960556844547,
                     "uniqueID": 1742079099773,
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1742078635296
+                            "ioValue": 1742081700667
                         },
                         {
                             "name": "x-axis degrees",
@@ -422,6 +422,136 @@
                         "cutLayout"
                     ],
                     "cutTag": true
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "the hole in Bars bar of chocolate",
+                    "x": 0.4157168566286743,
+                    "y": 0.6844547563805105,
+                    "uniqueID": 1742081512527,
+                    "ioValues": [],
+                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.98,
+                            "y": 0.5,
+                            "uniqueID": 1742081512372,
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": 1742081691869
+                                }
+                            ],
+                            "description": "Connect geometry here to make it available in the next level up. "
+                        },
+                        {
+                            "atomType": "Circle",
+                            "name": "Circle",
+                            "x": 0.26814637072585484,
+                            "y": 0.382830626450116,
+                            "uniqueID": 1742081660996,
+                            "ioValues": [
+                                {
+                                    "name": "diameter",
+                                    "ioValue": 22
+                                }
+                            ],
+                            "description": "Creates a new circle."
+                        },
+                        {
+                            "atomType": "Extrude",
+                            "name": "Extrude",
+                            "x": 0.4385122975404919,
+                            "y": 0.43619489559164737,
+                            "uniqueID": 1742081680199,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": 1742081660996
+                                },
+                                {
+                                    "name": "height",
+                                    "ioValue": 20
+                                }
+                            ],
+                            "description": "Extrudes a 2D shape. Input can be negitive. "
+                        },
+                        {
+                            "atomType": "Fusion",
+                            "name": "Fusion",
+                            "x": 0.6784643071385723,
+                            "y": 0.5730858468677494,
+                            "uniqueID": 1742081691869,
+                            "ioValues": [
+                                {
+                                    "name": "Shape 1",
+                                    "ioValue": 1742081680199
+                                }
+                            ],
+                            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
+                            "unionType": "Fusion"
+                        },
+                        {
+                            "atomType": "Circle",
+                            "name": "Circle",
+                            "x": 0.28254349130173967,
+                            "y": 0.7679814385150813,
+                            "uniqueID": 1742081743743,
+                            "ioValues": [
+                                {
+                                    "name": "diameter",
+                                    "ioValue": 10
+                                }
+                            ],
+                            "description": "Creates a new circle."
+                        }
+                    ],
+                    "allConnectors": [
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1742081660996,
+                            "ap2ID": 1742081680199
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "Shape 1",
+                            "ap2Primary": false,
+                            "ap1ID": 1742081680199,
+                            "ap2ID": 1742081691869
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 1742081691869,
+                            "ap2ID": 1742081512372
+                        }
+                    ],
+                    "fileTypeVersion": 1,
+                    "compiledBom": []
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 0.5434913017396521,
+                    "y": 0.7378190255220417,
+                    "uniqueID": 1742081700667,
+                    "ioValues": [
+                        {
+                            "name": "geometry2",
+                            "ioValue": 1742081512527
+                        },
+                        {
+                            "name": "geometry1",
+                            "ioValue": 1742078635296
+                        }
+                    ],
+                    "description": "Subtracts shape two from shape one."
                 }
             ],
             "allConnectors": [
@@ -434,10 +564,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
+                    "ap2Name": "geometry1",
+                    "ap2Primary": false,
                     "ap1ID": 1742078635296,
-                    "ap2ID": 1742079099773
+                    "ap2ID": 1742081700667
                 },
                 {
                     "ap1Name": "geometry",
@@ -487,6 +617,20 @@
                     "ap2Primary": false,
                     "ap1ID": 1742080419073,
                     "ap2ID": 1742078193456
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry2",
+                    "ap2Primary": false,
+                    "ap1ID": 1742081512527,
+                    "ap2ID": 1742081700667
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1742081700667,
+                    "ap2ID": 1742079099773
                 }
             ],
             "fileTypeVersion": 1,
