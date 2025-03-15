@@ -495,8 +495,8 @@
         {
             "atomType": "Molecule",
             "name": "Bars bar of chococolate",
-            "x": 0.2711457708458308,
-            "y": 0.34106728538283065,
+            "x": 0.26694661067786446,
+            "y": 0.3967517401392111,
             "uniqueID": 1742079344634,
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -629,13 +629,13 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.6598680263947211,
-                    "y": 0.28306264501160094,
+                    "x": 0.7336532693461308,
+                    "y": 0.2273781902552204,
                     "uniqueID": 1742079716399,
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1742079685776
+                            "ioValue": 1742081371329
                         },
                         {
                             "name": "x-axis degrees",
@@ -671,7 +671,7 @@
                             "ioValues": [
                                 {
                                     "name": "number or geometry",
-                                    "ioValue": 1742080124136
+                                    "ioValue": 1742081383358
                                 }
                             ],
                             "description": "Connect geometry here to make it available in the next level up. "
@@ -1057,14 +1057,39 @@
                             ],
                             "fileTypeVersion": 1,
                             "compiledBom": []
+                        },
+                        {
+                            "atomType": "Tag",
+                            "name": "Tag",
+                            "x": 0.7396520695860828,
+                            "y": 0.42459396751740136,
+                            "uniqueID": 1742081383358,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": 1742080124136
+                                }
+                            ],
+                            "description": "Tags geometry so that it can be extracted later.",
+                            "tags": [
+                                ""
+                            ],
+                            "cutTag": false
                         }
                     ],
                     "allConnectors": [
                         {
                             "ap1Name": "Geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1742080124136,
+                            "ap2ID": 1742081383358
+                        },
+                        {
+                            "ap1Name": "geometry",
                             "ap2Name": "number or geometry",
                             "ap2Primary": false,
-                            "ap1ID": 1742080124136,
+                            "ap1ID": 1742081383358,
                             "ap2ID": 1742080091921
                         }
                     ],
@@ -1140,6 +1165,25 @@
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Tag",
+                    "name": ",cutLayout",
+                    "x": 0.590881823635273,
+                    "y": 0.42691415313225056,
+                    "uniqueID": 1742081371329,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1742079685776
+                        }
+                    ],
+                    "description": "Tags geometry so that it can be extracted later.",
+                    "tags": [
+                        "",
+                        "cutLayout"
+                    ],
+                    "cutTag": true
                 }
             ],
             "allConnectors": [
@@ -1176,7 +1220,7 @@
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 1742079685776,
-                    "ap2ID": 1742079716399
+                    "ap2ID": 1742081371329
                 },
                 {
                     "ap1Name": "geometry",
@@ -1212,6 +1256,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1742080518279,
                     "ap2ID": 1742079345131
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1742081371329,
+                    "ap2ID": 1742079716399
                 }
             ],
             "fileTypeVersion": 1,
@@ -1951,10 +2002,6 @@
             "uniqueID": 1742081162091,
             "ioValues": [
                 {
-                    "name": "geometry",
-                    "ioValue": 1742078193305
-                },
-                {
                     "name": "Material Thickness",
                     "ioValue": 12.9
                 },
@@ -1982,13 +2029,6 @@
             "ap2Primary": false,
             "ap1ID": 1742078193305,
             "ap2ID": 1742079734212
-        },
-        {
-            "ap1Name": "Geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": 1742078193305,
-            "ap2ID": 1742081162091
         },
         {
             "ap1Name": "Geometry",
