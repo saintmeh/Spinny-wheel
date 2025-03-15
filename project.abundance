@@ -477,13 +477,197 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1742079345131,
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1742079716399
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.33053389322135573,
+                    "y": 0.33178654292343385,
+                    "uniqueID": 1742079594909,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 60
+                        }
+                    ],
+                    "description": "Creates a new circle."
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.5032993401319736,
+                    "y": 0.4037122969837587,
+                    "uniqueID": 1742079600793,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1742079594909
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 300
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.29514097180563886,
+                    "y": 0.7911832946635731,
+                    "uniqueID": 1742079636393,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 300
+                        }
+                    ],
+                    "description": "Creates a new rectangle."
+                },
+                {
+                    "atomType": "ShrinkWrap",
+                    "name": "Shrink Wrap",
+                    "x": 0.6394721055788842,
+                    "y": 0.728538283062645,
+                    "uniqueID": 1742079649750,
+                    "ioValues": [
+                        {
+                            "name": "Shape 1",
+                            "ioValue": 1742079600793
+                        },
+                        {
+                            "name": "Shape 2",
+                            "ioValue": 1742079636393
+                        },
+                        {
+                            "name": "Shape 3",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "Shape 1",
+                            "ioValue": 1742079600793
+                        },
+                        {
+                            "name": "Shape 2",
+                            "ioValue": 1742079636393
+                        },
+                        {
+                            "name": "Shape 3",
+                            "ioValue": ""
+                        }
+                    ],
+                    "description": "Joins two or more drawings into a single sketch by filling in the space between them. Also called 'hull'"
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.7168566286742651,
+                    "y": 0.41299303944315546,
+                    "uniqueID": 1742079685776,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1742079649750
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ],
+                    "description": "Extrudes a 2D shape. Input can be negitive. "
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.8212357528494302,
+                    "y": 0.5939675174013921,
+                    "uniqueID": 1742079716399,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1742079685776
+                        },
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": -90
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0
+                        }
+                    ],
+                    "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1742079594909,
+                    "ap2ID": 1742079600793
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 1742079600793,
+                    "ap2ID": 1742079649750
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 1742079636393,
+                    "ap2ID": 1742079649750
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1742079649750,
+                    "ap2ID": 1742079685776
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1742079685776,
+                    "ap2ID": 1742079716399
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1742079716399,
+                    "ap2ID": 1742079345131
+                }
+            ],
             "fileTypeVersion": 1,
-            "compiledBom": {}
+            "compiledBom": []
         }
     ],
     "allConnectors": [],
