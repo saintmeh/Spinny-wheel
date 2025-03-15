@@ -1235,6 +1235,10 @@
                 {
                     "name": "Shape 5",
                     "ioValue": 1742080472775
+                },
+                {
+                    "name": "Shape 6",
+                    "ioValue": 1742080652888
                 }
             ],
             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -1307,7 +1311,12 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1742080652643,
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1742080840867
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -1896,10 +1905,48 @@
                     "ap2Primary": true,
                     "ap1ID": 1742080749898,
                     "ap2ID": 1742080840867
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1742080840867,
+                    "ap2ID": 1742080652643
                 }
             ],
             "fileTypeVersion": 1,
-            "compiledBom": {}
+            "compiledBom": []
+        },
+        {
+            "atomType": "CutLayout",
+            "name": "Cut Layout",
+            "x": 0.8068386322735454,
+            "y": 0.7053364269141531,
+            "uniqueID": 1742081162091,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1742080652888
+                },
+                {
+                    "name": "Material Thickness",
+                    "ioValue": 12.9
+                },
+                {
+                    "name": "Sheet Width",
+                    "ioValue": 96
+                },
+                {
+                    "name": "Sheet Height",
+                    "ioValue": 48
+                },
+                {
+                    "name": "Part Padding",
+                    "ioValue": 0.25
+                }
+            ],
+            "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
+            "placements": []
         }
     ],
     "allConnectors": [
@@ -1944,6 +1991,20 @@
             "ap2Primary": false,
             "ap1ID": 1742080472775,
             "ap2ID": 1742079734212
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "Shape 6",
+            "ap2Primary": false,
+            "ap1ID": 1742080652888,
+            "ap2ID": 1742079734212
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1742080652888,
+            "ap2ID": 1742081162091
         }
     ],
     "unitsKey": "Inches",
