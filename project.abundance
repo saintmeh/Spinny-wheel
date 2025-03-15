@@ -953,6 +953,36 @@
                         }
                     ],
                     "description": "Subtracts shape two from shape one."
+                },
+                {
+                    "atomType": "Export",
+                    "name": "Export",
+                    "x": 0.5986802639472105,
+                    "y": 0.5336426914153132,
+                    "uniqueID": 1742082147680,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1742081700667
+                        },
+                        {
+                            "name": "Resolution (dpi)",
+                            "ioValue": 96
+                        },
+                        {
+                            "name": "Part Name",
+                            "ioValue": "Wheel"
+                        },
+                        {
+                            "name": "File Type",
+                            "ioValue": "SVG"
+                        }
+                    ],
+                    "description": "Export Atom, let's you choose a type of file to Export.",
+                    "type": null,
+                    "resolution": 96,
+                    "importIndex": 0,
+                    "fileName": null
                 }
             ],
             "allConnectors": [
@@ -1032,6 +1062,13 @@
                     "ap2Primary": true,
                     "ap1ID": 1742081700667,
                     "ap2ID": 1742079099773
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1742081700667,
+                    "ap2ID": 1742082147680
                 }
             ],
             "fileTypeVersion": 1,
