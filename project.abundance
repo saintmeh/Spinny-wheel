@@ -569,11 +569,11 @@
                                 },
                                 {
                                     "name": "Number",
-                                    "ioValue": 10
+                                    "ioValue": 12
                                 },
                                 {
                                     "name": "Angle",
-                                    "ioValue": 36
+                                    "ioValue": 30
                                 }
                             ],
                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -673,11 +673,11 @@
                                         },
                                         {
                                             "name": "Number",
-                                            "ioValue": 10
+                                            "ioValue": 12
                                         },
                                         {
                                             "name": "Angle",
-                                            "ioValue": 36
+                                            "ioValue": 30
                                         }
                                     ],
                                     "description": "Defines a Replicad code block.",
@@ -1077,8 +1077,8 @@
         {
             "atomType": "Molecule",
             "name": "Bars bar of chococolate",
-            "x": 0.26694661067786446,
-            "y": 0.3967517401392111,
+            "x": 0.27645502645502645,
+            "y": 0.37604456824512533,
             "uniqueID": 1742079344634,
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
