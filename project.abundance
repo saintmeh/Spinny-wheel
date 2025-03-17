@@ -3973,8 +3973,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.5436507936507936,
-                    "y": 0.4818941504178273,
+                    "x": 0.48611111111111116,
+                    "y": 0.3231197771587744,
                     "uniqueID": 1742255679740,
                     "ioValues": [
                         {
@@ -3999,8 +3999,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.6765873015873016,
-                    "y": 0.6768802228412256,
+                    "x": 0.6144179894179894,
+                    "y": 0.34261838440111425,
                     "uniqueID": 1742255691944,
                     "ioValues": [
                         {
@@ -4017,10 +4017,138 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 2000
+                            "ioValue": -17
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Export",
+                    "name": "Export",
+                    "x": 0.7857142857142857,
+                    "y": 0.415041782729805,
+                    "uniqueID": 1742255701515,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1742255691944
+                        },
+                        {
+                            "name": "Resolution (dpi)",
+                            "ioValue": 96
+                        },
+                        {
+                            "name": "Part Name",
+                            "ioValue": "Lay Out"
+                        },
+                        {
+                            "name": "File Type",
+                            "ioValue": "SVG"
+                        }
+                    ],
+                    "description": "Export Atom, let's you choose a type of file to Export.",
+                    "type": null,
+                    "resolution": 96,
+                    "importIndex": 0,
+                    "fileName": null
+                },
+                {
+                    "atomType": "ExtractTag",
+                    "name": "Extract Tag",
+                    "x": 0.3498677248677248,
+                    "y": 0.6935933147632313,
+                    "uniqueID": 1742255773563,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1742079734212
+                        }
+                    ],
+                    "description": "Extracts geometry containing the specified tag.",
+                    "tag": "Small Upright",
+                    "tagIndex": 2
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.48677248677248675,
+                    "y": 0.6768802228412256,
+                    "uniqueID": 1742255787402,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1742255773563
+                        },
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 90
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0
+                        }
+                    ],
+                    "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.628968253968254,
+                    "y": 0.6991643454038997,
+                    "uniqueID": 1742255794600,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1742255787402
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": -17
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Export",
+                    "name": "Export",
+                    "x": 0.7771164021164021,
+                    "y": 0.8022284122562675,
+                    "uniqueID": 1742255808398,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1742255794600
+                        },
+                        {
+                            "name": "Resolution (dpi)",
+                            "ioValue": 96
+                        },
+                        {
+                            "name": "Part Name",
+                            "ioValue": "Lay Out"
+                        },
+                        {
+                            "name": "File Type",
+                            "ioValue": "SVG"
+                        }
+                    ],
+                    "description": "Export Atom, let's you choose a type of file to Export.",
+                    "type": null,
+                    "resolution": 96,
+                    "importIndex": 0,
+                    "fileName": null
                 }
             ],
             "allConnectors": [
@@ -4030,6 +4158,13 @@
                     "ap2Primary": true,
                     "ap1ID": 1742255497127,
                     "ap2ID": 1742255664147
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1742255497127,
+                    "ap2ID": 1742255773563
                 },
                 {
                     "ap1Name": "geometry",
@@ -4044,6 +4179,34 @@
                     "ap2Primary": true,
                     "ap1ID": 1742255679740,
                     "ap2ID": 1742255691944
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1742255691944,
+                    "ap2ID": 1742255701515
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1742255773563,
+                    "ap2ID": 1742255787402
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1742255787402,
+                    "ap2ID": 1742255794600
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1742255794600,
+                    "ap2ID": 1742255808398
                 }
             ],
             "fileTypeVersion": 1,
