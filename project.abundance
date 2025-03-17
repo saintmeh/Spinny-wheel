@@ -4039,7 +4039,7 @@
                         },
                         {
                             "name": "Part Name",
-                            "ioValue": "Lay Out"
+                            "ioValue": "Big Upright"
                         },
                         {
                             "name": "File Type",
@@ -4137,7 +4137,7 @@
                         },
                         {
                             "name": "Part Name",
-                            "ioValue": "Lay Out"
+                            "ioValue": "Small Upright"
                         },
                         {
                             "name": "File Type",
