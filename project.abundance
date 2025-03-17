@@ -3054,8 +3054,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Bars other bar of chococolate",
-                    "x": 0.2526455026455027,
-                    "y": 0.8133704735376045,
+                    "x": 0.2552910052910053,
+                    "y": 0.8105849582172702,
                     "uniqueID": 1742183009882,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
