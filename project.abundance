@@ -1101,8 +1101,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.11697660467906419,
-                    "y": 0.3062645011600928,
+                    "x": 0.07539682539682539,
+                    "y": 0.298050139275766,
                     "uniqueID": 1742079594909,
                     "ioValues": [
                         {
@@ -1115,8 +1115,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.26814637072585484,
-                    "y": 0.30394431554524365,
+                    "x": 0.1898148148148148,
+                    "y": 0.2785515320334262,
                     "uniqueID": 1742079600793,
                     "ioValues": [
                         {
@@ -1141,8 +1141,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.13977204559088183,
-                    "y": 0.728538283062645,
+                    "x": 0.07936507936507936,
+                    "y": 0.8022284122562675,
                     "uniqueID": 1742079636393,
                     "ioValues": [
                         {
@@ -1159,8 +1159,8 @@
                 {
                     "atomType": "ShrinkWrap",
                     "name": "Shrink Wrap",
-                    "x": 0.3875224955008998,
-                    "y": 0.48491879350348027,
+                    "x": 0.25925925925925924,
+                    "y": 0.5292479108635098,
                     "uniqueID": 1742079649750,
                     "ioValues": [
                         {
@@ -1193,8 +1193,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.5110977804439112,
-                    "y": 0.19489559164733178,
+                    "x": 0.35912698412698413,
+                    "y": 0.20055710306406688,
                     "uniqueID": 1742079685776,
                     "ioValues": [
                         {
@@ -1211,8 +1211,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.7336532693461308,
-                    "y": 0.2273781902552204,
+                    "x": 0.580026455026455,
+                    "y": 0.233983286908078,
                     "uniqueID": 1742079716399,
                     "ioValues": [
                         {
@@ -1237,8 +1237,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Bars other bar of chococolate",
-                    "x": 0.4601079784043191,
-                    "y": 0.8097447795823666,
+                    "x": 0.2526455026455027,
+                    "y": 0.8133704735376045,
                     "uniqueID": 1742080092144,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1681,8 +1681,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.6034793041391722,
-                    "y": 0.6890951276102089,
+                    "x": 0.3941798941798942,
+                    "y": 0.7075208913649026,
                     "uniqueID": 1742080378193,
                     "ioValues": [
                         {
@@ -1707,8 +1707,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.7528494301139772,
-                    "y": 0.5777262180974478,
+                    "x": 0.5998677248677249,
+                    "y": 0.6545961002785515,
                     "uniqueID": 1742080387022,
                     "ioValues": [
                         {
@@ -1725,8 +1725,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.8632273545290942,
-                    "y": 0.6821345707656613,
+                    "x": 0.8095238095238095,
+                    "y": 0.37604456824512533,
                     "uniqueID": 1742080518279,
                     "ioValues": [
                         {
@@ -1750,9 +1750,9 @@
                 },
                 {
                     "atomType": "Tag",
-                    "name": ",cutLayout",
-                    "x": 0.590881823635273,
-                    "y": 0.42691415313225056,
+                    "name": "cutLayout,",
+                    "x": 0.4424603174603175,
+                    "y": 0.18105849582172703,
                     "uniqueID": 1742081371329,
                     "ioValues": [
                         {
@@ -1762,10 +1762,52 @@
                     ],
                     "description": "Tags geometry so that it can be extracted later.",
                     "tags": [
-                        "",
-                        "cutLayout"
+                        "cutLayout",
+                        ""
                     ],
                     "cutTag": true
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Switch Cutouts",
+                    "x": 0.6878306878306879,
+                    "y": 0.8467966573816156,
+                    "uniqueID": 1742182707899,
+                    "ioValues": [],
+                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.98,
+                            "y": 0.5,
+                            "uniqueID": 1742182708353,
+                            "ioValues": [],
+                            "description": "Connect geometry here to make it available in the next level up. "
+                        },
+                        {
+                            "atomType": "Rectangle",
+                            "name": "Rectangle",
+                            "x": 0.17857142857142858,
+                            "y": 0.5598885793871866,
+                            "uniqueID": 1742182718708,
+                            "ioValues": [
+                                {
+                                    "name": "x length",
+                                    "ioValue": 10
+                                },
+                                {
+                                    "name": "y length",
+                                    "ioValue": 10
+                                }
+                            ],
+                            "description": "Creates a new rectangle."
+                        }
+                    ],
+                    "allConnectors": [],
+                    "fileTypeVersion": 1,
+                    "compiledBom": {}
                 }
             ],
             "allConnectors": [
