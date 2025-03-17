@@ -25,8 +25,8 @@
         {
             "atomType": "Molecule",
             "name": ":-]",
-            "x": 0.322841726618705,
-            "y": 0.18097447795823665,
+            "x": 0.3181216931216931,
+            "y": 0.18105849582172703,
             "uniqueID": 1742078193305,
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -399,7 +399,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 300
+                            "ioValue": 200
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -1077,8 +1077,8 @@
         {
             "atomType": "Molecule",
             "name": "Bars bar of chococolate",
-            "x": 0.27645502645502645,
-            "y": 0.37604456824512533,
+            "x": 0.27711640211640215,
+            "y": 0.4512534818941504,
             "uniqueID": 1742079344634,
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1125,7 +1125,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 300
+                            "ioValue": 200
                         },
                         {
                             "name": "yDist",
@@ -1299,8 +1299,8 @@
                                 {
                                     "atomType": "Move",
                                     "name": "Move",
-                                    "x": 0.2693461307738452,
-                                    "y": 0.3155452436194896,
+                                    "x": 0.2691798941798942,
+                                    "y": 0.3175487465181059,
                                     "uniqueID": 1742080124294,
                                     "ioValues": [
                                         {
@@ -1309,7 +1309,7 @@
                                         },
                                         {
                                             "name": "xDist",
-                                            "ioValue": 200
+                                            "ioValue": 150
                                         },
                                         {
                                             "name": "yDist",
@@ -1735,7 +1735,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 26
+                            "ioValue": 36
                         },
                         {
                             "name": "yDist",
@@ -1931,8 +1931,8 @@
         {
             "atomType": "Molecule",
             "name": "Bars bar of chocolate that he stands on",
-            "x": 0.5674865026994601,
-            "y": 0.8213457076566125,
+            "x": 0.5496031746031745,
+            "y": 0.7688022284122563,
             "uniqueID": 1742080652888,
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
