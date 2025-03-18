@@ -1077,8 +1077,8 @@
         {
             "atomType": "Molecule",
             "name": "Bars bar of chococolate",
-            "x": 0.27711640211640215,
-            "y": 0.4512534818941504,
+            "x": 0.2751322751322751,
+            "y": 0.4735376044568245,
             "uniqueID": 1742079344634,
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1818,7 +1818,7 @@
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": 1742182718708
+                                    "ioValue": 1742271143968
                                 },
                                 {
                                     "name": "height",
@@ -1927,16 +1927,23 @@
                                 }
                             ],
                             "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+                        },
+                        {
+                            "atomType": "Circle",
+                            "name": "Circle",
+                            "x": 0.23214285714285715,
+                            "y": 0.637883008356546,
+                            "uniqueID": 1742271143968,
+                            "ioValues": [
+                                {
+                                    "name": "diameter",
+                                    "ioValue": 12
+                                }
+                            ],
+                            "description": "Creates a new circle."
                         }
                     ],
                     "allConnectors": [
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 1742182718708,
-                            "ap2ID": 1742182754674
-                        },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
@@ -1985,6 +1992,13 @@
                             "ap2Primary": false,
                             "ap1ID": 1742182851345,
                             "ap2ID": 1742182708353
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1742271143968,
+                            "ap2ID": 1742182754674
                         }
                     ],
                     "fileTypeVersion": 1,
@@ -1993,8 +2007,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.705026455026455,
-                    "y": 0.8328690807799443,
+                    "x": 0.7010582010582012,
+                    "y": 0.8551532033426184,
                     "uniqueID": 1742182884045,
                     "ioValues": [
                         {
@@ -2011,7 +2025,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 40
+                            "ioValue": 20
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
