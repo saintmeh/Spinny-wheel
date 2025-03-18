@@ -3781,8 +3781,8 @@
         {
             "atomType": "Molecule",
             "name": "Axel Bolt",
-            "x": 0.6091269841269841,
-            "y": 0.8579387186629527,
+            "x": 0.6117724867724867,
+            "y": 0.8941504178272981,
             "uniqueID": 1742255405287,
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
