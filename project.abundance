@@ -3957,8 +3957,8 @@
                 {
                     "atomType": "ExtractTag",
                     "name": "Extract Tag",
-                    "x": 0.3214285714285714,
-                    "y": 0.3259052924791086,
+                    "x": 0.32275132275132273,
+                    "y": 0.37047353760445684,
                     "uniqueID": 1742255664147,
                     "ioValues": [
                         {
@@ -3967,8 +3967,8 @@
                         }
                     ],
                     "description": "Extracts geometry containing the specified tag.",
-                    "tag": "Small Upright",
-                    "tagIndex": 2
+                    "tag": "Large Upright",
+                    "tagIndex": 1
                 },
                 {
                     "atomType": "Rotate",
@@ -4025,8 +4025,8 @@
                 {
                     "atomType": "Export",
                     "name": "Export",
-                    "x": 0.7857142857142857,
-                    "y": 0.415041782729805,
+                    "x": 0.7890211640211641,
+                    "y": 0.403899721448468,
                     "uniqueID": 1742255701515,
                     "ioValues": [
                         {
@@ -4097,8 +4097,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.628968253968254,
-                    "y": 0.6991643454038997,
+                    "x": 0.636904761904762,
+                    "y": 0.6935933147632313,
                     "uniqueID": 1742255794600,
                     "ioValues": [
                         {
