@@ -1077,7 +1077,7 @@
         {
             "atomType": "Molecule",
             "name": "Bars bar of chococolate",
-            "x": 0.2751322751322751,
+            "x": 0.2757936507936508,
             "y": 0.4735376044568245,
             "uniqueID": 1742079344634,
             "ioValues": [],
@@ -2821,8 +2821,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.5974805038992201,
-                    "y": 0.46171693735498837,
+                    "x": 0.6117724867724867,
+                    "y": 0.4512534818941504,
                     "uniqueID": 1742080840867,
                     "ioValues": [
                         {
@@ -2949,8 +2949,8 @@
         {
             "atomType": "Molecule",
             "name": "Bars bar of chococolate",
-            "x": 0.2156084656084656,
-            "y": 0.8161559888579387,
+            "x": 0.21825396825396826,
+            "y": 0.8328690807799443,
             "uniqueID": 1742183009652,
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -3031,8 +3031,8 @@
                 {
                     "atomType": "ShrinkWrap",
                     "name": "Shrink Wrap",
-                    "x": 0.25925925925925924,
-                    "y": 0.5292479108635098,
+                    "x": 0.26851851851851855,
+                    "y": 0.5041782729805014,
                     "uniqueID": 1742183009407,
                     "ioValues": [
                         {
@@ -3649,8 +3649,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.6005291005291005,
-                    "y": 0.6239554317548747,
+                    "x": 0.6051587301587301,
+                    "y": 0.5877437325905293,
                     "uniqueID": 1742183009842,
                     "ioValues": [
                         {
@@ -4782,8 +4782,8 @@
         {
             "atomType": "Molecule",
             "name": "Lay Out",
-            "x": 0.7652116402116402,
-            "y": 0.7019498607242339,
+            "x": 0.7830687830687831,
+            "y": 0.6935933147632313,
             "uniqueID": 1742255488123,
             "ioValues": [
                 {
