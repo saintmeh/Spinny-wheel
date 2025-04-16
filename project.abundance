@@ -420,8 +420,7 @@
                     "tags": [
                         "",
                         "cutLayout"
-                    ],
-                    "cutTag": true
+                    ]
                 },
                 {
                     "atomType": "Molecule",
@@ -982,7 +981,7 @@
                     "type": null,
                     "resolution": 96,
                     "importIndex": 0,
-                    "fileName": null
+                    "partName": ":-]"
                 }
             ],
             "allConnectors": [
@@ -1655,8 +1654,7 @@
                             "description": "Tags geometry so that it can be extracted later.",
                             "tags": [
                                 ""
-                            ],
-                            "cutTag": false
+                            ]
                         }
                     ],
                     "allConnectors": [
@@ -1764,8 +1762,7 @@
                     "tags": [
                         "cutLayout",
                         "Large Upright"
-                    ],
-                    "cutTag": true
+                    ]
                 },
                 {
                     "atomType": "Molecule",
@@ -2852,8 +2849,7 @@
                     "tags": [
                         "",
                         "cutLayout"
-                    ],
-                    "cutTag": true
+                    ]
                 },
                 {
                     "atomType": "Export",
@@ -2883,7 +2879,7 @@
                     "type": null,
                     "resolution": 96,
                     "importIndex": 0,
-                    "fileName": null
+                    "partName": "Bars bar of chocolate that he stands on"
                 }
             ],
             "allConnectors": [
@@ -3476,7 +3472,7 @@
                                     "type": null,
                                     "resolution": 96,
                                     "importIndex": 0,
-                                    "fileName": null
+                                    "partName": "Bars half bar of chococolate"
                                 }
                             ],
                             "allConnectors": [
@@ -3597,8 +3593,7 @@
                             "description": "Tags geometry so that it can be extracted later.",
                             "tags": [
                                 ""
-                            ],
-                            "cutTag": false
+                            ]
                         }
                     ],
                     "allConnectors": [
@@ -3706,8 +3701,7 @@
                     "tags": [
                         "cutLayout",
                         "Small Upright"
-                    ],
-                    "cutTag": true
+                    ]
                 }
             ],
             "allConnectors": [
@@ -4260,7 +4254,7 @@
                     "type": null,
                     "resolution": 96,
                     "importIndex": 0,
-                    "fileName": null
+                    "partName": "Axel Bolt"
                 },
                 {
                     "atomType": "Export",
@@ -4290,7 +4284,7 @@
                     "type": null,
                     "resolution": 96,
                     "importIndex": 0,
-                    "fileName": null
+                    "partName": "Axel Bolt"
                 },
                 {
                     "atomType": "Molecule",
@@ -4408,7 +4402,7 @@
                             "type": null,
                             "resolution": 96,
                             "importIndex": 0,
-                            "fileName": null
+                            "partName": "Shim"
                         }
                     ],
                     "allConnectors": [
@@ -4909,7 +4903,7 @@
                     "type": null,
                     "resolution": 96,
                     "importIndex": 0,
-                    "fileName": null
+                    "partName": "Lay Out"
                 },
                 {
                     "atomType": "ExtractTag",
@@ -5007,7 +5001,7 @@
                     "type": null,
                     "resolution": 96,
                     "importIndex": 0,
-                    "fileName": null
+                    "partName": "Lay Out"
                 }
             ],
             "allConnectors": [
