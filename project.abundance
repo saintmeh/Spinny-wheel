@@ -2192,15 +2192,15 @@
                 },
                 {
                     "name": "x-axis degrees",
-                    "ioValue": 0
+                    "ioValue": 15
                 },
                 {
                     "name": "y-axis degrees",
-                    "ioValue": 0
+                    "ioValue": 15
                 },
                 {
                     "name": "z-axis degrees",
-                    "ioValue": 180
+                    "ioValue": 15
                 }
             ],
             "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
