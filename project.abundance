@@ -158,7 +158,7 @@
                         {
                             "atomType": "Input",
                             "name": "Shape",
-                            "x": 0.04,
+                            "x": 0.025384615384615384,
                             "y": 0.3788300835654596,
                             "uniqueID": 1742078894647,
                             "ioValues": [],
@@ -167,7 +167,7 @@
                         {
                             "atomType": "Input",
                             "name": "Number",
-                            "x": 0.04,
+                            "x": 0.025384615384615384,
                             "y": 0.8440111420612814,
                             "uniqueID": 1742078894290,
                             "ioValues": [],
@@ -176,7 +176,7 @@
                         {
                             "atomType": "Input",
                             "name": "Angle",
-                            "x": 0.04,
+                            "x": 0.025384615384615384,
                             "y": 0.5821727019498607,
                             "uniqueID": 1742078894784,
                             "ioValues": [],
@@ -595,7 +595,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "Shape",
-                                    "x": 0.04,
+                                    "x": 0.025384615384615384,
                                     "y": 0.3788300835654596,
                                     "uniqueID": 1742081851589,
                                     "ioValues": [],
@@ -604,7 +604,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "Number",
-                                    "x": 0.04,
+                                    "x": 0.025384615384615384,
                                     "y": 0.8440111420612814,
                                     "uniqueID": 1742081851641,
                                     "ioValues": [],
@@ -613,7 +613,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "Angle",
-                                    "x": 0.04,
+                                    "x": 0.025384615384615384,
                                     "y": 0.5821727019498607,
                                     "uniqueID": 1742081851803,
                                     "ioValues": [],
@@ -943,12 +943,12 @@
                     "uniqueID": 1742081700667,
                     "ioValues": [
                         {
-                            "name": "geometry2",
-                            "ioValue": 1742081512527
-                        },
-                        {
                             "name": "geometry1",
                             "ioValue": 1742078635296
+                        },
+                        {
+                            "name": "geometry2",
+                            "ioValue": 1742081512527
                         }
                     ],
                     "description": "Subtracts shape two from shape one."
@@ -1487,12 +1487,12 @@
                                     "uniqueID": 1742080194089,
                                     "ioValues": [
                                         {
-                                            "name": "geometry2",
-                                            "ioValue": 1742080180926
-                                        },
-                                        {
                                             "name": "geometry1",
                                             "ioValue": 1742080123488
+                                        },
+                                        {
+                                            "name": "geometry2",
+                                            "ioValue": 1742080180926
                                         }
                                     ],
                                     "description": "Subtracts shape two from shape one."
@@ -2035,12 +2035,12 @@
                     "uniqueID": 1742182894704,
                     "ioValues": [
                         {
-                            "name": "geometry2",
-                            "ioValue": 1742182884045
-                        },
-                        {
                             "name": "geometry1",
                             "ioValue": 1742080387022
+                        },
+                        {
+                            "name": "geometry2",
+                            "ioValue": 1742182884045
                         }
                     ],
                     "description": "Subtracts shape two from shape one."
@@ -2161,10 +2161,6 @@
                     "ioValue": 1742079344634
                 },
                 {
-                    "name": "Shape 2",
-                    "ioValue": 1742078193305
-                },
-                {
                     "name": "Shape 5",
                     "ioValue": 1742080472775
                 },
@@ -2175,6 +2171,10 @@
                 {
                     "name": "Shape 7",
                     "ioValue": 1742255405287
+                },
+                {
+                    "name": "Shape 8",
+                    "ioValue": "e83b4bf0-78ca-45ae-9157-59e6b428e692"
                 }
             ],
             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -2295,7 +2295,7 @@
                         {
                             "atomType": "Input",
                             "name": "Width",
-                            "x": 0.04,
+                            "x": 0.025384615384615384,
                             "y": 0.2900232018561485,
                             "uniqueID": 1742080750413,
                             "ioValues": [],
@@ -2305,7 +2305,7 @@
                         {
                             "atomType": "Input",
                             "name": "Height",
-                            "x": 0.04,
+                            "x": 0.025384615384615384,
                             "y": 0.44083526682134566,
                             "uniqueID": 1742080749791,
                             "ioValues": [],
@@ -2315,7 +2315,7 @@
                         {
                             "atomType": "Input",
                             "name": "Radius",
-                            "x": 0.04,
+                            "x": 0.025384615384615384,
                             "y": 0.6334106728538283,
                             "uniqueID": 1742080750042,
                             "ioValues": [],
@@ -2923,10 +2923,6 @@
             "uniqueID": 1742081162091,
             "ioValues": [
                 {
-                    "name": "Material Thickness",
-                    "ioValue": 12.9
-                },
-                {
                     "name": "Sheet Width",
                     "ioValue": 96
                 },
@@ -3356,12 +3352,12 @@
                                     "uniqueID": 1742080194089,
                                     "ioValues": [
                                         {
-                                            "name": "geometry2",
-                                            "ioValue": 1742080180926
-                                        },
-                                        {
                                             "name": "geometry1",
                                             "ioValue": 1742080123488
+                                        },
+                                        {
+                                            "name": "geometry2",
+                                            "ioValue": 1742080180926
                                         }
                                     ],
                                     "description": "Subtracts shape two from shape one."
@@ -4067,12 +4063,12 @@
                             "uniqueID": 1742406798136,
                             "ioValues": [
                                 {
-                                    "name": "geometry2",
-                                    "ioValue": 1742406785481
-                                },
-                                {
                                     "name": "geometry1",
                                     "ioValue": 1742406775120
+                                },
+                                {
+                                    "name": "geometry2",
+                                    "ioValue": 1742406785481
                                 }
                             ],
                             "description": "Subtracts shape two from shape one."
@@ -4216,12 +4212,12 @@
                     "uniqueID": 1742406875484,
                     "ioValues": [
                         {
-                            "name": "geometry2",
-                            "ioValue": 1742406866419
-                        },
-                        {
                             "name": "geometry1",
                             "ioValue": 1742406628839
+                        },
+                        {
+                            "name": "geometry2",
+                            "ioValue": 1742406866419
                         }
                     ],
                     "description": "Subtracts shape two from shape one."
@@ -4364,12 +4360,12 @@
                             "uniqueID": 1742409510826,
                             "ioValues": [
                                 {
-                                    "name": "geometry2",
-                                    "ioValue": 1742409490555
-                                },
-                                {
                                     "name": "geometry1",
                                     "ioValue": 1742409500647
+                                },
+                                {
+                                    "name": "geometry2",
+                                    "ioValue": 1742409490555
                                 }
                             ],
                             "description": "Subtracts shape two from shape one."
@@ -4618,12 +4614,12 @@
                             "uniqueID": 1742411517646,
                             "ioValues": [
                                 {
-                                    "name": "geometry2",
-                                    "ioValue": 1742411517884
-                                },
-                                {
                                     "name": "geometry1",
                                     "ioValue": 1742411518286
+                                },
+                                {
+                                    "name": "geometry2",
+                                    "ioValue": 1742411517884
                                 }
                             ],
                             "description": "Subtracts shape two from shape one."
@@ -4800,7 +4796,7 @@
                 {
                     "atomType": "Input",
                     "name": "Geometry",
-                    "x": 0.04,
+                    "x": 0.025384615384615384,
                     "y": 0.584958217270195,
                     "uniqueID": 1742255497127,
                     "ioValues": [],
@@ -5064,15 +5060,41 @@
             ],
             "fileTypeVersion": 1,
             "compiledBom": {}
+        },
+        {
+            "atomType": "Rotate",
+            "name": "Rotate",
+            "x": 0.4851537645811241,
+            "y": 0.22916666666666669,
+            "uniqueID": "e83b4bf0-78ca-45ae-9157-59e6b428e692",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1742078193305
+                },
+                {
+                    "name": "x-axis degrees",
+                    "ioValue": -100
+                },
+                {
+                    "name": "y-axis degrees",
+                    "ioValue": 0
+                },
+                {
+                    "name": "z-axis degrees",
+                    "ioValue": 0
+                }
+            ],
+            "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
         }
     ],
     "allConnectors": [
         {
             "ap1Name": "Geometry",
-            "ap2Name": "Shape 2",
-            "ap2Primary": false,
+            "ap2Name": "geometry",
+            "ap2Primary": true,
             "ap1ID": 1742078193305,
-            "ap2ID": 1742079734212
+            "ap2ID": "e83b4bf0-78ca-45ae-9157-59e6b428e692"
         },
         {
             "ap1Name": "Geometry",
@@ -5128,6 +5150,13 @@
             "ap2Name": "Shape 7",
             "ap2Primary": false,
             "ap1ID": 1742255405287,
+            "ap2ID": 1742079734212
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape 8",
+            "ap2Primary": false,
+            "ap1ID": "e83b4bf0-78ca-45ae-9157-59e6b428e692",
             "ap2ID": 1742079734212
         }
     ],
